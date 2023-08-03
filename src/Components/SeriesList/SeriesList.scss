@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* ... (previous styles) */
+
+.series-box {
+  position: relative; /* Enable positioning for the box */
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+  max-width: 85%;
+}
+
+.series-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.series-details {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.series-title {
+  font-size: 1.1rem;
+}
+
+.series-rating {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.series-genres {
+  margin-top: auto;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.heart-icon {
+  position: absolute; /* Position the heart icon */
+  top: 10px; /* Adjust top position for desired placement */
+  right: 10px; /* Adjust right position for desired placement */
+  cursor: pointer;
+  font-size: 1rem;
+  color: red;
+}

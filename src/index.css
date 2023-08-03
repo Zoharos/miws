@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  width: 40vw;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.list {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #f7f7f7;
+}
+
+.heart {
+  cursor: pointer;
+}
+
+.favorite {
+  color: red;
+}
+
+.search-bar {
+  width: 40vw;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 40%;
+  max-width: 400px;
+}
